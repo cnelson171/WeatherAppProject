@@ -1,0 +1,32 @@
+body {
+    background: transparent rgb(201, 158, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
+    color: black
+}
+
+h2 {
+    font-size: 12px;
+}
+
+img {
+    margin: auto;
+    text-align: center;
+}
+
+
+.underHeaer {
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+
+}
+
+units {
+    font-size: 30px;
+    text-transform: bold;
+}
