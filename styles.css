@@ -1,20 +1,35 @@
 body {
-    background: transparent rgb(201, 158, 172);
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(chicagoSkyLine.png)  ;
+    background-size: 1000px 1000px;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
-h1,
-h2 {
-    color: black
+    h1 {
+    position: relative;
+    font-size: 50px;
+    margin-top: -18px;
+    margin-left: 30px;
+    color: rgb(254, 254, 254);
+}
+ul {
+    position: relative;
+    columns: 2;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-top: -10px;
+    margin-left: 30px;
+    list-style: none;
 }
 
-h2 {
-    font-size: 12px;
-}
-
-img {
-    margin: auto;
-    text-align: center;
+button {
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
 }
 
 
@@ -25,8 +40,14 @@ img {
     font-size: 20px;
 
 }
-
-units {
-    font-size: 30px;
-    text-transform: bold;
+.weather-app {
+    border: 2px solid rgb(255, 254, 254);
+    padding: 20px;
+    margin: 70px 145px;
+    border-radius: 20px;
+    max-width: 80%;
 }
+.temperature{
+    font-size: 50px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);}
