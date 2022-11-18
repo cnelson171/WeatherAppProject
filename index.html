@@ -26,20 +26,30 @@
 
 <body>
     <div class="container">
-        <form class="search-form" id="search-form">
+        <section class="search-form">
+        <form id="search-form">
         <div class="weather-container">
-            <div class="clearfix">
+            <div class="row">
+            <div class="col-8">
 
-                <form id="weather_refresh"class="float-left">
-                    <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
-                        class="form-control shadow-sm" />   
-                    <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm w-100" />
-                </form>
-                     <button class="float-left btn btn-success" id="current-location-button">
+              <input 
+              type="text"
+              class="form-control"
+              id="city-input"
+              autofocus="on"
+              placeholder="Enter city...."
+              />
+             </div>
+             <div class="col-2">
+                <button type="submit" class="btn btn-primary w-100 h-100">Search</button>
+
+             </div>
+             <div class="col-2">
+                     <button class="btn btn-secondary w-100 h-100" id="current-location-button">
                         Current Location
                     </button>
-                    </div>
-                    </form>
+                    </div></div>
+                    </form></div>
             </div>
         </div>
        <div class="weather-summary">
@@ -58,7 +68,7 @@
         </span>
             </ul>
         </div>
-      
+      </section>
     
                 </div>
             </div>
